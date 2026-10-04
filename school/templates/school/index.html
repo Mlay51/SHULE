@@ -1,0 +1,287 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choba School | Primary Education in Pangani</title>
+    <meta
+      name="description"
+      content="Choba School is a private primary school in Choba Village, Pangani District, Tanga Region, Tanzania. We support quality education and scholarships for bright, underprivileged students."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="{% static 'school/css/style.css' %}" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#top">Choba School</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+            <li class="nav-item"><a class="nav-link" href="#support">Support</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item">
+              <a class="btn btn-light btn-sm px-3" href="#contact">Enroll Today</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero-section" id="top">
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7">
+            <span class="badge rounded-pill">Private Primary School</span>
+            <h1>Growing bright futures in Choba Village</h1>
+            <p class="lead text-white-50">
+              A caring learning community in Pangani District, Tanga Region, where children
+              are nurtured to become confident, disciplined, and successful citizens.
+            </p>
+            <div class="d-flex gap-3 flex-wrap mt-4">
+              <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg">Partner with Us</a>
+            </div>
+            <div class="hero-stats mt-5">
+              <div>
+                <strong>Primary</strong>
+                <span>Education</span>
+              </div>
+              <div>
+                <strong>Pre-Primary</strong>
+                <span>Foundation</span>
+              </div>
+              <div>
+                <strong>Scholarship</strong>
+                <span>Support</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="hero-card">
+              <div class="card-header">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <div class="card-body">
+                <p class="label">School Snapshot</p>
+                <h3>Quality education with heart</h3>
+                <ul>
+                  <li>Located in Choba Village, Pangani District</li>
+                  <li>Private school supported by generous donors from the UK</li>
+                  <li>Focus on academic excellence and community values</li>
+                  <li>Helping bright students from poor backgrounds</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about-section py-5" id="about">
+        <div class="container">
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-6">
+              <p class="section-kicker">About Choba School</p>
+              <h2>Building strong foundations for every child</h2>
+              <p>
+                Choba School is a private primary school serving the local community in Choba,
+                Pangani District in the Tanga Region of Tanzania. The school is deeply rooted in
+                the village and aims to give children a safe, inspiring, and well-structured
+                environment for learning.
+              </p>
+              <p>
+                With support from sponsors from the United Kingdom, the school continues to grow
+                and create opportunities for students who need guidance, encouragement, and a
+                chance to succeed in life.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="info-panel">
+                <h3>Our mission</h3>
+                <p>
+                  To provide quality education, character development, and practical support that
+                  helps students thrive academically and socially.
+                </p>
+                <div class="mini-grid">
+                  <div>
+                    <strong>Location</strong>
+                    <span>Choba Village, Pangani</span>
+                  </div>
+                  <div>
+                    <strong>Region</strong>
+                    <span>Tanga, Tanzania</span>
+                  </div>
+                  <div>
+                    <strong>Type</strong>
+                    <span>Private School</span>
+                  </div>
+                  <div>
+                    <strong>Postal</strong>
+                    <span>P.O. Box 20, Pangani</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="programs-section py-5 bg-light" id="programs">
+        <div class="container">
+          <div class="text-center section-header mb-5">
+            <p class="section-kicker">What We Offer</p>
+            <h2>Education that inspires excellence</h2>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="feature-card h-100">
+                <div class="icon">🎒</div>
+                <h3>Primary Education</h3>
+                <p>
+                  A complete primary learning experience focused on literacy, numeracy, problem
+                  solving, and personal discipline.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="feature-card h-100">
+                <div class="icon">🌱</div>
+                <h3>Pre-Primary</h3>
+                <p>
+                  Early childhood learning that builds confidence, curiosity, and communication
+                  from the earliest stage of development.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="feature-card h-100">
+                <div class="icon">🤝</div>
+                <h3>Community Growth</h3>
+                <p>
+                  We strengthen the community by promoting responsible citizens, teamwork, and
+                  social responsibility in every student.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="support-section py-5" id="support">
+        <div class="container">
+          <div class="row align-items-center gy-4">
+            <div class="col-lg-6">
+              <p class="section-kicker">Our Sponsor Network</p>
+              <h2>Supporting young learners and future leaders</h2>
+              <p>
+                Choba School is sustained by donations and sponsorship from kind supporters from
+                the United Kingdom. This support enables us to maintain quality education and
+                provide meaningful opportunities for promising students.
+              </p>
+              <p>
+                We also support alumni from the school who successfully complete Standard Seven and
+                achieve excellent results in secondary education, especially those who come from
+                poor backgrounds and need encouragement to continue their journey.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="support-box">
+                <h3>Scholarship focus</h3>
+                <ul>
+                  <li>Academic excellence after Standard Seven</li>
+                  <li>Support for students from disadvantaged homes</li>
+                  <li>Empowering the next generation through education</li>
+                  <li>Partnership with sponsors and community leaders</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section py-5 bg-dark text-white" id="contact">
+        <div class="container">
+          <div class="row gy-4 align-items-center">
+            <div class="col-lg-6">
+              <p class="section-kicker text-light">Contact Us</p>
+              <h2>We welcome partners, sponsors, and families</h2>
+              <p>
+                Whether you are looking to enroll your child, support our mission, or become one of
+                our valued sponsors, we would be glad to hear from you.
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-card">
+                <div class="contact-item">
+                  <span>📍</span>
+                  <div>
+                    <strong>Address</strong>
+                    <p>Choba Village, Pangani District, Tanga Region, Tanzania</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <span>📮</span>
+                  <div>
+                    <strong>Postal Address</strong>
+                    <p>P.O. Box 20, Pangani, Tanga, Tanzania</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <span>📞</span>
+                  <div>
+                    <strong>Support Line</strong>
+                    <p>+255 000 000 000</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <span>✉️</span>
+                  <div>
+                    <strong>Email</strong>
+                    <p>info@chobaschool.or.tz</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-3">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+        <p class="mb-0">&copy; <span id="year"></span> Choba School</p>
+        <p class="mb-0">Education with purpose, care, and hope.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'school/js/main.js' %}"></script>
+  </body>
+</html>
